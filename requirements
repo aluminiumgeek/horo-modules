@@ -1,0 +1,13 @@
+All requirements:
+
+horo:
+libpcre-dev
+python-dev
+
+Modules:
+mpd (impc.py) -- http://musicpd.org
+mpc (impc.py) -- http://mpd.wikia.com/wiki/Client:Mpc
+UFP (l.py, rss.pyб kprfru.py, lentachan.py, lorng.py, tokyotosho.py) -- http://sourceforge.net/projects/feedparser/
+python-lastfm (lfm.py) -- http://code.google.com/p/python-lastfm/
+gdata-python-client (yt.py, youtube_info.py) -- http://code.google.com/p/gdata-python-client/
+python-twitter (twit.py) -- http://code.google.com/p/python-twitter/
