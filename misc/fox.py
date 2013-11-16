@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # fox.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # Fox Jovovich emulator
 
 import random

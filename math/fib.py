@@ -1,6 +1,6 @@
 # fib.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # Module returns line of the Fibonacci numbers
 
 def horo(channel, user, args):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # exec.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # Execute python code
 # You must set OWNER
 

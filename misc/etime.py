@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # time.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # Print another execution time of another module
 
 import time

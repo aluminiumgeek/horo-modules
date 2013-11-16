@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # clf.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # Random shell commands from commandlinefu.com
 
 import urllib

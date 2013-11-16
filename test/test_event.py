@@ -1,6 +1,6 @@
 # test_event.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # Events test. Module returns a message contains triggered event
 
 EVENTS = ['test', 'say']

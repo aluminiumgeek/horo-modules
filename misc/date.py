@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # date.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # Print current date and time
 
 from datetime import datetime

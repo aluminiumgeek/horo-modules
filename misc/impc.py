@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # impc.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
-#
+# 
 # IRC mpc -- Module that controls Music Player Daemon (mpd)
 # Required mpd (http://musicpd.org) and mpc (http://mpd.wikia.com/wiki/Client:Mpc)
 # You must set OWNER
