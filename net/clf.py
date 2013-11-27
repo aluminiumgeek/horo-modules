@@ -7,6 +7,8 @@
 import urllib
 
 def horo(channel, user, args):
+    """Get random shell command from commandlinefu.com"""
+    
     url = 'http://www.commandlinefu.com/commands/random/plaintext'
     data = urllib.urlopen(url).read()
     

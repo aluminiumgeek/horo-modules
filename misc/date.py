@@ -7,6 +7,8 @@
 from datetime import datetime
 
 def horo(channel, user, args):
+    """Show current date and time"""
+    
     date = datetime.now().strftime('%d.%m.%Y %H:%M:%S')
     
     return u'PRIVMSG {channel} :{date}'.format(

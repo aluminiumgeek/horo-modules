@@ -7,6 +7,8 @@
 import random
 
 def horo(channel, user, args):
+    """Generate sentence in Fox Jovovich style"""
+    
     fox = (
         "десятилетку", "самоубийством", "имеющая", "докипеть", 
         "склочником", "гермошлеме", "огурчиками", "разбирающаяся", 

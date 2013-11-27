@@ -19,6 +19,8 @@ def commpc(command):
     return ret
   
 def horo(channel, user, args):
+    """Control Music Player Daemon. Usage: impc <command>. Commands: toggle, next, prev, stop, random, current, status"""
+    
     com = args[0]
     if (com in commands or com in altcommands) and user == OWNER:
         result = "---"

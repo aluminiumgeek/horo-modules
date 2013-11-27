@@ -10,6 +10,8 @@ import os
 OWNER = 'mynickname'
 
 def horo(channel, user, args):
+    """Execute python code. Usage: exec <some python code>"""
+    
     if user == OWNER:
         command = u' '.join(args)
         result = os.popen('python -c "'+command+'"').read()

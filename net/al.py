@@ -40,6 +40,8 @@ def delta_check(data):
     return al, alloy, nasaac, baux
 
 def horo(channel, user, args):
+    """Get LME aluminium, bauxites, etc prices""" 
+    
     page = urllib.urlopen('http://aluminiumleader.com')
     data = page.read()
     

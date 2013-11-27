@@ -2,12 +2,14 @@
 # time.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
 # 
-# Print another execution time of another module
+# Print execution time of another module
 
 import time
 import importlib
 
 def horo(channel, user, args):
+    """Show execution time of any module. If '-p' option was specified, print module's output. Usage: etime [-p] <module name> [<module options>]. Example: etime fib 20"""
+    
     output = False
     if args[0] == '-p':
         output = True

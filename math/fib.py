@@ -4,6 +4,8 @@
 # Module returns line of the Fibonacci numbers
 
 def horo(channel, user, args):
+    """Calculate line of the Fibonacci numbers. If '-n' option was specified, return only nth number. Usage: fib [-n] <count>"""
+    
     if args[0] == '-n':
         if args[1] == "0":
             result = '0'

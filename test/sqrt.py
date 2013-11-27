@@ -5,7 +5,9 @@
 
 from math import sqrt
 
-def horo(channel, user, args): 
+def horo(channel, user, args):
+    """Calculate square root. Usage: sqrt <number>"""
+    
     result = sqrt(int(args[0]))
     
     return u'PRIVMSG {channel} :{result}'.format(

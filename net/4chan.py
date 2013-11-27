@@ -35,6 +35,8 @@ def get_data(url):
 
 
 def horo(channel, user, args):
+    """Retrieve first post from any 4chan board. List of boards returns by --list/-l option. Usage: 4chan [-l] [<board>]"""
+    
     if args[0] in ('--list', '-l'):
         data = get_data('https://api.4chan.org/boards.json')
         

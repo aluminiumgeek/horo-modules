@@ -1,12 +1,14 @@
 # do.py (c) Mikhail Mezyakov <mihail265@gmail.com>
 # Released under the GNU GPL v.3
 # 
-# Send raw-command to a server
+# Send raw command to a server
 # You must set OWNER
 
 OWNER = "mynickname"
 
 def horo(channel, user, args):
+    """Send raw command to a server. Usage: do <server command>"""
+    
     line = u' '.join(args)
 
     owner_commands = ('part', 'quit')
