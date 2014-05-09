@@ -5,8 +5,6 @@
 # Execute python code
 # You must set OWNER
 
-import os
-
 OWNER = 'mynickname'
 
 def horo(channel, user, args):
@@ -14,7 +12,7 @@ def horo(channel, user, args):
     
     if user == OWNER:
         command = u' '.join(args)
-        result = os.popen('python -c "'+command+'"').read()
+        result = eval(command, {'__builtins__':{}}) if command else ''
     else: 
         result = 'No way!'
 
