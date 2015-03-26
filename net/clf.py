@@ -6,18 +6,19 @@
 
 import urllib
 
+
 def horo(channel, user, args):
     """Get random shell command from commandlinefu.com"""
-    
+
     url = 'http://www.commandlinefu.com/commands/random/plaintext'
     data = urllib.urlopen(url).read()
-    
+
     data = data.split('\n')
-    del data[0] # David Winterbottom's comment
-    
+    del data[0]  # David Winterbottom's comment
+
     ret = []
     for line in data:
-        if line: 
+        if line:
             ret.append('PRIVMSG ' + channel + ' :' + line)
-            
+
     return '\n'.join(ret)

@@ -3,10 +3,9 @@
 # 
 # Module sends "success" message to user on a channel
 
+
 def horo(channel, user, args):
     """Send "success" message if everything is ok"""
-    
-    return u'PRIVMSG {channel} :{user}: success'.format(
-        channel = channel,
-        user = user
-    )
+
+    return u'PRIVMSG {channel} :{user}: success'.format(channel=channel,
+                                                        user=user)

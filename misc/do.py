@@ -6,9 +6,10 @@
 
 OWNER = "mynickname"
 
+
 def horo(channel, user, args):
     """Send raw command to a server. Usage: do <server command>"""
-    
+
     line = u' '.join(args)
 
     owner_commands = ('part', 'quit')
